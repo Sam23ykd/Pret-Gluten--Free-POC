@@ -55,12 +55,17 @@ Three-layer (RAW → STAGING → MART) design chosen so the pipeline can be re-r
   Pret_SnowSQL_Scripts.docx     All SQL scripts in a single reference document
 /presentation/
   Pret_GlutenFree_Presentation.pptx   Slide deck: problem, approach, insights, next steps
+/dashboard/
+  Pret_GlutenFree_Dashboard.pbix      Power BI dashboard (interactive, requires Power BI Desktop/service)
+  Pret_GlutenFree_Dashboard.pdf       Static export for quick viewing without Power BI
 README.md
 ```
 
 Run the `/sql` scripts in numeric order to reproduce the pipeline end to end.
 
 ## Key Results
+
+See the full interactive dashboard in [`/dashboard/Pret_GlutenFree_Dashboard.pbix`](./dashboard/Pret_GlutenFree_Dashboard.pbix) (or the static [PDF export](./dashboard/Pret_GlutenFree_Dashboard.pdf) if you don't have Power BI installed).
 
 | Metric | Value |
 |---|---|
